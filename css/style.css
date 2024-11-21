@@ -64,6 +64,7 @@ nav img { width: 30px;}
 .projects-section img {
     border-radius: 8px;
     margin: 10px 0;
+    margin-bottom: 150px;
 }
 
 /* Modal */
@@ -73,7 +74,7 @@ nav img { width: 30px;}
 }
 
 footer {
-    background-color: #d0ac516a; 
+    background-color: #6d4e006a; 
     text-align: center; 
-    margin-top: 50px; 
+    padding: 150px; 
 }
