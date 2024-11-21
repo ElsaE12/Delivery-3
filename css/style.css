@@ -1,0 +1,79 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Mulish:wght@400;700&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Navbar */
+nav.bg-dark { background-color: rgb(91, 68, 22) !important ;}
+
+nav img { width: 30px;}
+
+/* Header */
+.header-section {
+    padding: 60px 0; 
+}
+
+.header-image {
+    max-width: 90%; 
+    height: auto; 
+    margin-top: 50px; 
+    margin-bottom: 30px; 
+}
+
+.header-title {
+    margin-top: 20px; 
+    color: #333; 
+    text-align: left;
+}
+
+.header-subtitle {
+    margin-top: 10px; 
+    color: #666; 
+    text-align: left;
+}
+
+
+/* Services Section */
+.services-section {
+    margin-bottom: 50px; 
+}
+
+.services-title {
+    font-weight: 700;
+    margin-top: 30px; 
+    font-size: 24px; 
+    text-align: center; 
+}
+
+/* Subtitle Services */
+.services-subtitle {
+    font-size: 18px; 
+    color: #666; 
+    margin-top: 10px; 
+    text-align: center; 
+}
+/* Projects Section */
+.projects-section img {
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* Modal */
+.modal-header, .btn-warning {
+    background-color: #beac77;
+    color: #fff;
+}
+
+footer {
+    background-color: #d0ac516a; 
+    text-align: center; 
+    margin-top: 50px; 
+}
